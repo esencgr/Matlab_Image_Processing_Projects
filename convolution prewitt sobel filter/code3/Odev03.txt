@@ -1,0 +1,16 @@
+Ödev 3
+Teslim Tarihi : 23 Ekim, 23:55
+
+1. Bir m x m boyutunda bir maske ile N x N boyutunda bir görüntü arasýnda convolotion iþlemi yapan bir program yazýnýz.
+Programýnýz ilk olarak m sayýsýný kullanýcýdan alacak ve buna göre kullanýcýdan m x m tane maske elemaný isteyecektir. Bu verilere
+göre görüntü üzerinde convolotion iþlemi yapýlacak ve sonuç ekranda orjinal görüntü ile birlikte gösterilecektir. m'nin tek sayý olarak
+girileceðini ve en az 3 olacaðýný kabul edebilirsiniz.  
+
+2. 2'de yaptýðýnýz programý bu görüntüde kullanarak elemanlarý 1/25 olan 5x5'lik bir maske ve elemanlarý 1/81 olan 9x9 'luk bir maske ile
+düzgünleþtirme (smooting) iþlemi yapýp sonucu gösterin.
+
+3. Prewitt ve Sobel maskeleri ile bu görüntüdeki kenarlarý bulan (edge detection yapan) bir program yazýnýz. Daha sonra
+görüntüyü 5x5'lik bir maske ile düzgünleþtirip (smooth edip), belli bir eþik deðerinin üzerinde bulunan kenarlarýný, ilk kýsýmda
+kullandýðýnýz Prewitt ve Sobel maskeleri ile elde edin. Tüm çýktý görüntülerini orijinal görüntü ile birlikte ekranda gösterin.
+
+Not: Programlarýnýzda conv2 gibi fonksiyonlarý kullanmamanýz gerekmektedir.
