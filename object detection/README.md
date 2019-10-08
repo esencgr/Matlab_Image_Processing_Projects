@@ -20,10 +20,13 @@ Teknolojik gelişmeler her alanda olduğu gibi görüntü ve video işleme konul
 ## 2. MATLAB İLE NESNE TAKİBİ 
 
 Matlab görüntü işleme konusunda da diğer birçok konuda olduğu gibi oldukça gelişmiş araçlara sahip bir programdır. Bu yazıda matlab programının özellikleri kullanarak kameradan gerçek zamanlı nesne takibi yapan bir proje geliştireceğiz. Projenin özellikleri ise şu şekilde olacak;
-- [ x ] Gerçek zamanlı takip
-- [ x ]	Birden fazla objenin ayırt edilebilmesi
-- [ x ] Görüntüde tek bir obje varsa hareketinin (engel arkasında görünmeme durumunda) tahmini
-- [ x ] Bulunan objelerin gösterilmesi
+- [x] Gerçek zamanlı takip
+- [x]	Birden fazla objenin ayırt edilebilmesi
+- [x] Görüntüde tek bir obje varsa hareketinin (engel arkasında görünmeme durumunda) tahmini
+- [x] Bulunan objelerin gösterilmesi
+
+- [x] Geliştirilecek olan yazılımın GitHub üzerinden paylaşılması
+
 
 Bir nesneyi takip etmek için çeşitli görüntü işleme teknikleri birbiri ardına kullanılarak, görüntüler daha işlenebilir ve anlaşılabilir hale getirilmektedir. Bu kapsamda sırasıyla hangi işlemler yapacağımıza bakalım. 
 Bu projede nesne takibi yapılırken ilk olarak kullanım kolaylığı açısından ve avantaj sağlamak için ayrı bir görüntü alma fonksiyonu yazılarak dışardan harici bir kamera  donanımı kullandığımızda da herhangi bir değer girmeden görüntü alma imkanı sağlanır. Daha sonra bir referans çerçevesi alınmaktadır. Sonraki görüntüler bu referans çerçevesi ile karşılaştırılır. Alınan çerçevedeki değişimler çeşitli teknikler kullanılarak belirlenebilir ve hareketleri öngörülür. Referans çerçevesine göre değişimler oldukça nesneler ve hareketleri algılanır. Referans çerçevesine göre değişimin olduğu yerler nesnelerin olduğu yerlere denk gelir. Nesnelerin bulunduğu yerler beyaza yakınsanır etrafı ise siyaha yakınsanır. Böylelikle nesneler o ortamdan seçilmiş olur. Median filtresi ile seçilen nesneler üzerindeki gürültüler yok edilir ve nesne daha sağlıklı bir şekilde belirlenir. Nesneyi çevreleyen çerçeve ile ana ekran karşılaştırılır ve nesnelerin merkez noktası bulunarak ekranın neresinde olduğu tespit edilir. Ve daha sonra tespit edilen bu noktanın koordinatları ekrana yansıtılarak kullanıcıya sarı işaretçilerle gösterilir. 
