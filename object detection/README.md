@@ -49,7 +49,7 @@ Video işleme işleminde iyi sonuçlar alınabilmesi için görüntünün düzg�
 ![3](https://user-images.githubusercontent.com/32637622/66401736-53dc2200-e9ec-11e9-99ed-db2166ef693e.png)
 
 
-***3.şekil : Programın çıktısı***
+***3. Programın çıktısı***
 
 ## 2.2 Nesne Algılama
 Nesne algılanıp sınırları belirlenerek çerçevelendikten sonra istenilen fonksiyonların yapılabilmesi ve operatörün ayarlamaları kolaylıkla yapabilmesi açısından hesaplanan değerler ekrana yazılması sağlanmaktadır. Nesne algılanıp sınırları belirlenerek çerçevelendikten sonra istenilen fonksiyonların yapılabilmesi ve operatörün ayarlamaları kolaylıkla yapabilmesi açısından hesaplanan değerler ekrana yazılması sağlanmaktadır.
